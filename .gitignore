@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# python gitignore
+
+# dependencies
+jupyter/myenv
+
+# testing
+/coverage
+
+
+# production
+/build
+
+# misc
+__pycache__
+.ipynb_checkpoints
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
